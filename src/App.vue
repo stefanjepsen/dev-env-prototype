@@ -15,6 +15,7 @@
         <q-tabs align="left">
           <q-route-tab to="/" label="Home" />
           <q-route-tab id="toRegister" to="/register" label="Register" />
+          <q-route-tab to="/NameSim" label="NameSim" />
         </q-tabs>
       </q-header>
 

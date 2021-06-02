@@ -19,7 +19,7 @@ describe('Check correct h1 on frontpage and if button is pressed', () => {
 
 describe('Register test', () => {
 
-  it('Visits register page', () => {
+  it('Goes to register view and adds a new random user to Firebase', () => {
     
     cy.get('#toRegister').click();
     cy.get('.action-email')

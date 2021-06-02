@@ -6,7 +6,7 @@
 
     <div class="row justify-center">
       <q-btn
-      id="fetchData"
+        id="fetchData"
         @click="toggle = !toggle"
         color="deep-orange"
         glossy
