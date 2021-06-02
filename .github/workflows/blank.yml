@@ -4,15 +4,12 @@ jobs:
   build_vue:
     runs-on: ubuntu-latest
     name: Build Vue
-      steps:
-      - uses: actions/checkout@v2
-      - id: Build-Vue
-        uses: xRealNeon/VuePagesAction@1.0.0
-        with:
-          username: 'stefanjepsen'
-          reponame: 'dev-env-prototype'
-          token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
-      - name: NPM install, build and test
-        run: |
-          npm run test:e2e
-          npm test:unit
+    steps:
+    - uses: actions/checkout@v2
+    - id: Build-Vue
+      uses: xRealNeon/VuePagesAction@1.0.0
+      with:
+        username: 'stefanjepsen'
+        reponame: 'dev-env-prototype'
+        token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+    
