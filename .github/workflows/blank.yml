@@ -12,6 +12,3 @@ jobs:
         username: 'stefanjepsen'
         reponame: 'dev-env-prototype'
         token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
-    - run: |
-            npm run test:e2e
-            npm run test:unit
