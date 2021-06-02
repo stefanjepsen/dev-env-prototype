@@ -1,7 +1,16 @@
 npm run test:unit <-----Unit Testing
-
 npm run test:e2e <-----End 2 End Test
 
-
-
 https://docs.cypress.io/guides/getting-started/writing-your-first-test#Step-4-Make-an-assertion
+
+Version Control: 
+what does it do
+Git vs Github 
+Example Git commands
+Live demo with commands
+
+Quality Assurance
+Testing
+Mocha Chai
+Cypress
+Show Demos 
