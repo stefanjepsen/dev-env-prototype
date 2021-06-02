@@ -24,4 +24,4 @@ jobs:
         with:
           build: npm run build
           start: npm run test:e2e
-          start: npm run test:unit
+                 npm run test:unit
