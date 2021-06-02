@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath:'/examn-prototype-dev-env/',
+  publicPath:'/dev-env-prototype/',
   pluginOptions: {
     quasar: {
       importStrategy: 'kebab',
