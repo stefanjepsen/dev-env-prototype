@@ -1,3 +1,7 @@
 npm run test:unit <-----Unit Testing
 
 npm run test:e2e <-----End 2 End Test
+
+
+
+https://docs.cypress.io/guides/getting-started/writing-your-first-test#Step-4-Make-an-assertion

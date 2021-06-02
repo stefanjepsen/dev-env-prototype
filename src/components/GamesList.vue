@@ -1,18 +1,28 @@
 <template>
   <div class="GamesList">
-    <h1>GamesList</h1>
-  <div class="row justify center">
-    <q-card v-for="item in list" :key="item.id" flat bordered class="my-card">
-      <q-card-section>
-        <div class="text-h6">{{ item.name }}</div>
-        <p>{{ item.genre }}</p>
-      </q-card-section>
+    <div class="row justify-center">
+      <h3>GamesList</h3>
+    </div>
 
-      <q-card-section class="q-pt-none">
-        {{ item.details }}
-      </q-card-section>
-    </q-card>
+    <div class="row justify-center q-gutter-md">
+      <q-card
+        v-for="item in list"
+        :key="item.id"
+        dark
+        bordered
+        class="bg-grey-9 my-card"
+      >
+        <q-card-section>
+          <div class="text-h6">{{ item.name }}</div>
+          <div class="text-subtitle2">{{ item.genre }}</div>
+        </q-card-section>
 
+        <q-separator dark inset />
+
+        <q-card-section>
+          {{ item.details }}
+        </q-card-section>
+      </q-card>
     </div>
   </div>
 </template>

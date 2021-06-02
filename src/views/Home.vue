@@ -1,11 +1,27 @@
 <template>
-  <div class="home">
-    <h1>Dukker</h1>
-    <GamesList />
+  <q-page-container>
+    <div class="row justify-center">
+      <h1>Games List From API</h1>
+    </div>
+
+    <div class="row justify-center">
+      <q-btn
+      id="fetchData"
+        @click="toggle = !toggle"
+        color="deep-orange"
+        glossy
+        label="Click for list of games"
+      />
+    </div>
+
+    <div class="row justify-center">
+      <div v-if="!toggle">Fetch from API</div>
+      <div v-else><GamesList /></div>
+    </div>
 
     <!--     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-  </div>
+  </q-page-container>
 </template>
 
 <script>
@@ -18,6 +34,11 @@ export default {
   components: {
     //HelloWorld
     GamesList,
+  },
+  data() {
+    return {
+      toggle: false,
+    };
   },
 };
 </script>

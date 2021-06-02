@@ -23,6 +23,6 @@ describe('HelloWorld.vue', () => {
 describe('Home.vue', () => {
   it('Should show correct h1, and should be correct string', () => {
     const wrapper = shallowMount(Home);
-    expect(wrapper.find('h1').text()).equal('This is Home1')
+    expect(wrapper.find('h1').text()).equal('Dukker')
   })
 })
