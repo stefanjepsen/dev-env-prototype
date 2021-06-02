@@ -24,15 +24,11 @@ jobs:
         with:
           build: npm run build
           start: npm run test:e2e
-    UnitTest:
+  unit-test:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: test
         uses: actions/checkout@v2
-      # Install NPM dependencies, cache them correctly
-      # and run all Cypress tests
-      - name: UnitTest
-        uses: cypress-io/github-action@v2
         with:
           build: npm run build
-          start: npm run test:unit
+          start: npm run test:unit        
