@@ -4,8 +4,6 @@ jobs:
   build_vue:
     runs-on: ubuntu-latest
     name: Build Vue
-      test: Test
-      runs-on: ubuntu-latest
         steps:
         - uses: actions/checkout@v2
         - id: Build-Vue
