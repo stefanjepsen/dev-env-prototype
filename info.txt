@@ -1,0 +1,3 @@
+npm run test:unit <-----Unit Testing
+
+npm run test:e2e <-----End 2 End Test
