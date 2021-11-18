@@ -7,17 +7,17 @@ const routes = [
         {
           path: '/FranksSurprise',
           name: 'FranksSurprise',
-          component: () => import('src/pages/FranksSurprise.vue')
+          component: () => import('src/views/FranksSurprise.vue')
         },
         {
           path: '/PiasSurprise',
           name: 'PiasSurprise',
-          component: () => import('src/pages/PiasSurprise.vue')
+          component: () => import('src/views/PiasSurprise.vue')
         },
         {
           path: '/UllasSurprise',
           name: 'UllasSurprise',
-          component: () => import('src/pages/UllasSurprise.vue')
+          component: () => import('src/views/UllasSurprise.vue')
         },
       ]
       
