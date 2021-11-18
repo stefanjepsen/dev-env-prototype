@@ -13,6 +13,22 @@ const routes = [
     name: 'Home',
     component: Home
   },
+  {
+    path: '/FranksSurprise',
+    name: 'FranksSurprise',
+    component: () => import('src/views/FranksSurprise.vue')
+  },
+  {
+    path: '/PiasSurprise',
+    name: 'PiasSurprise',
+    component: () => import('src/views/PiasSurprise.vue')
+  },
+  {
+    path: '/UllasSurprise',
+    name: 'UllasSurprise',
+    component: () => import('src/views/UllasSurprise.vue')
+  },
+  
  
   {
     path: '/register',
