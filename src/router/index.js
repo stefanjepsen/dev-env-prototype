@@ -16,17 +16,17 @@ const routes = [
   {
     path: '/FranksSurprise',
     name: 'FranksSurprise',
-    component: () => import('src/views/FranksSurprise.vue')
+    component: FranksSurprise
   },
   {
     path: '/PiasSurprise',
     name: 'PiasSurprise',
-    component: () => import('src/views/PiasSurprise.vue')
+    component: PiasSurprise
   },
   {
     path: '/UllasSurprise',
     name: 'UllasSurprise',
-    component: () => import('src/views/UllasSurprise.vue')
+    component: UllasSurprise
   },
   
  

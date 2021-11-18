@@ -247,7 +247,7 @@
 
 <script>
 export default {
-  name: "App",
+  name: "UllasSurprise",
   data() {
     return {
       isHidden: true,
