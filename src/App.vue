@@ -1,7 +1,7 @@
 <template>
   <div id="q-app">
     <q-layout view="hHh lpR fFf">
-      <q-header reveal bordered class="bg-primary text-white">
+    <!--   <q-header reveal bordered class="bg-primary text-white">
         <q-toolbar>
           <q-toolbar-title>
             <q-avatar>
@@ -17,7 +17,7 @@
           <q-route-tab id="toRegister" to="/register" label="Register" />
       
         </q-tabs>
-      </q-header>
+      </q-header> -->
 
       <q-page-container>
         <router-view />
